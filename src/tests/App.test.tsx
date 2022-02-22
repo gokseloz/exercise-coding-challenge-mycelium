@@ -8,8 +8,8 @@ import {
   act,
 } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
-import App from "./App";
-import { image1, image2, image3, image4 } from "./assets/";
+import App from "../App";
+import { image1, image2, image3, image4 } from "../assets";
 
 jest.useFakeTimers();
 

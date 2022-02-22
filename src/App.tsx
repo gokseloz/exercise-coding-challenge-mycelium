@@ -82,7 +82,7 @@ function App() {
         <Viewer catalogImage={catalogs[activeIndex].image} />
         <div className="controlButtons">
           <button
-            className="prevBtn"
+            className="nextPrevBtn"
             data-testid="prev-slide-btn"
             onClick={() => prevSlide()}
           >
@@ -98,7 +98,7 @@ function App() {
             setActiveIndex={setActiveIndex}
           />
           <button
-            className="nextBtn"
+            className="nextPrevBtn"
             data-testid="next-slide-btn"
             onClick={() => nextSlide()}
           >

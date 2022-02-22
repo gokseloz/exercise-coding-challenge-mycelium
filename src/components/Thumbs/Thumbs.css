@@ -12,8 +12,7 @@
   outline-offset: 2px;
 }
 
-.prevBtn,
-.nextBtn {
+.nextPrevBtn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,16 +28,8 @@
     width: 2rem;
   }
 }
-/* @media only screen and (min-width: 600px) {
-  .prevBtn,
-  .nextBtn {
-    padding: 0.6em;
-  }
-} */
 
-.prevBtn:hover,
-.prevBtn:focus,
-.nextBtn:hover,
-.nextBtn:focus {
+.nextPrevBtn:hover,
+.nextPrevBtn:focus {
   background-color: hsl(0, 13%, 50%);
 }
