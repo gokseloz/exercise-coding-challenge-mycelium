@@ -1,0 +1,7 @@
+.viewer {
+  width: 100%;
+}
+
+.viewer > img {
+  width: 100%;
+}

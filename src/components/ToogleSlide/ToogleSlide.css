@@ -1,0 +1,15 @@
+.toggleSlide-wrapper {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.toggleSlide-wrapper > input {
+  width: 1em;
+  height: 1em;
+}
+
+.toggleSlide-wrapper > label {
+  font-size: 1.3rem;
+}

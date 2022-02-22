@@ -1,0 +1,44 @@
+.thumb-button {
+  width: 6rem;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  flex: 1.5;
+}
+.thumb-button:focus {
+  transform: scale(1.1);
+}
+.thumb-selected {
+  outline: 3px solid rgb(39, 37, 37);
+  outline-offset: 2px;
+}
+
+.prevBtn,
+.nextBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  align-self: stretch;
+  background-color: hsl(0, 13%, 70%);
+  cursor: pointer;
+  flex: 1;
+}
+
+@media (min-width: 900px) {
+  .material-icons {
+    width: 2rem;
+  }
+}
+/* @media only screen and (min-width: 600px) {
+  .prevBtn,
+  .nextBtn {
+    padding: 0.6em;
+  }
+} */
+
+.prevBtn:hover,
+.prevBtn:focus,
+.nextBtn:hover,
+.nextBtn:focus {
+  background-color: hsl(0, 13%, 50%);
+}

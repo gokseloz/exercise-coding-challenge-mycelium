@@ -1,0 +1,3 @@
+interface IViewerProps {
+  catalogImage: string;
+}
