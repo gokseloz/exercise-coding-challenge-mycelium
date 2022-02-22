@@ -34,7 +34,7 @@ Most UI was already coded. Steps below should have been implemented
 
 ## View Demo
 
-- [Demo](gokseloz-exercise-coding-challenge-mycelium.vercel.app)
+- [Demo](https://gokseloz-exercise-coding-challenge-mycelium.vercel.app/)
 
 ## Run it locally
 
